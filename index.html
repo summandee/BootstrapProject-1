@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The Splide Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Kassib</title>
+    <link rel="icon" type="image/x-icon" href="images/logo/logo.png">
+
+</head>
+
+<body>
+
+    <!-- _____________________ -->
+
+    <!-- Top Bar -->
+    <div class="top_bar bg-light text-light py-2">
+        <div class="container d-flex justify-content-between flex-column flex-md-row align-items-center">
+            <div class=" d-flex gap-3">
+                <a href="#" class="text-light"><i class="fa-brands fa-facebook-f text_icon "></i></a>
+                <a href="#" class="text-light"><i class="fa-brands fa-twitter text_icon "></i></a>
+                <a href="#" class="text-light"><i class="fa-brands fa-linkedin-in text_icon "></i></a>
+            </div>
+            <div class="d-flex  gap-4 ">
+                <a href="#" class=" nav-link me-3 "><i class="fa-solid fa-user text_icon ps-2"></i><span
+                        class="ps-3 text_icon">Register</span></a>
+                <a href="#" class=" nav-link"><i class="fa-solid fa-right-to-bracket text_icon ps-2"></i><span
+                        class="ps-3 text_icon">Login</span></a>
+                <a href="#" class=" nav-link"><i class="fa-solid fa-house-chimney text_icon ps-2"></i><span
+                        class="ps-3 text_icon">My Dashboard</span></a>
+                <a href="#" class=" nav-link"><i class="fa-solid fa-user text_icon ps-2"></i><span
+                        class="ps-3 text_icon">For Employer</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg_navbar">
+        <div class="container ">
+            <a class="navbar-brand" href="#">
+                <img src="/images/logo/logo.png" alt="">
+                <h2 class="d-inline text-white">KAASIB</h2>
+            </a>
+            <button class="navbar-toggler toggler_icon_color text-white " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon  toggler_icon_color "><i class="fa-solid fa-bars fs-4 "></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item"><a class="text-white nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="text-white nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="text-white nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- _________________End ____NavBar______________________ -->
+
+    <!-- Hero Section -->
+    <section>
+        <div class="container-fluid hero_section image-container  py-5 w-100 h-100 text-white ">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-10 mx-auto text-center">
+                        <h1 class="heading">Find The Best Job For Your Future</h1>
+                        <p class="fs-4 fw-light">It is a long established fact that a reader will be distracted by the
+                            readable.</p>
+                    </div>
+                </div>
+                <!--------- search area ----------->
+                <div class="row ">
+                    <div class="col-md-12 mx-auto text-center mt-3  mb-4">
+                        <form class="d-flex justify-content-center  animate-up" role="search">
+                            <input class="form-control rounded-0" type="search" placeholder="Search your job"
+                                aria-label="Search">
+                            <select class="form-select rounded-0" aria-label="Default select example">
+                                <option selected>All Categories</option>
+                                <option value="1">Education</option>
+                                <option value="2">Engineering</option>
+                                <option value="3">Finance</option>
+                                <option value="3">Food & Beverages</option>
+                                <option value="3">Healthcare</option>
+                                <option value="3">Human Resources</option>
+                                <option value="3">IT</option>
+                                <option value="3">Legal</option>
+                                <option value="3">Logistics</option>
+                                <option value="3">Manufacturing</option>
+                            </select>
+
+                            <select class="form-select rounded-0" aria-label="Default select example">
+                                <option selected>Select Location</option>
+                                <option value="1">Abbottabad</option>
+                                <option value="2">Attok</option>
+                                <option value="2">Bahawalpur</option>
+                                <option value="2">Bannu</option>
+                                <option value="2">Bhakkar</option>
+                                <option value="2">Chakwal</option>
+                                <option value="2">Chaman</option>
+                                <option value="3">Charsadda</option>
+                                <option value="3">Chiniot</option>
+                                <option value="3">Charsadda</option>
+                                <option value="3">Dera Ghazi Khan</option>
+                                <option value="3">Dera Ismail Khan</option>
+                                <option value="3">Faisalabad</option>
+                            </select>
+                            <button class=" btn bg_btn rounded-0 " style="background-color: #f76211;"
+                                type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!--------- End  search area ----------->
+            </div>
+            <!-- _____________________ -->
+            <!-- _____________________carousel_____________________________ -->
+
+            <div class="container-fluid ">
+                <div class="row ">
+                    <div class="col bg-dark opacity-50">
+
+                        <!-- ___________Start__carousel__Here____main__code_______________________ -->
+
+
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active d-flex" data-bs-interval="10000">
+                                    <img src="carousel img/Frame-6.png" class="d-block" alt="...">
+                                    <img src="carousel img/Frame-6.png" class="d-block" alt="...">
+                                    <img src="carousel img/Frame-6.png" class="d-block" alt="...">
+                                    <img src="carousel img/Frame-6.png" class="d-block" alt="...">
+                                </div>
+                                <div class="carousel-item d-flex" data-bs-interval="3000">
+                                    <img src="carousel img/Frame-6.png" class="d-block" alt="...">
+                                    <img src="carousel img/Frame-6.png" class="d-block" alt="...">
+                                    <img src="carousel img/Frame-6.png" class="d-block" alt="...">
+                                    <img src="carousel img/Frame-6.png" class="d-block" alt="...">
+                                </div>
+                                <div class="carousel-item d-flex" data-bs-interval="4000">
+                                    <img src="carousel img/Frame-6.png" class="d-block" alt="...">
+                                    <img src="carousel img/Frame-6.png" class="d-block" alt="...">
+                                    <img src="carousel img/Frame-6.png" class="d-block" alt="...">
+                                    <img src="carousel img/Frame-6.png" class="d-block" alt="...">
+                                </div>
+
+
+
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- ___**********  carousel    ********___ -->
+        </div>
+
+
+        <!--*************** Hero Section************************ -->
+    </section>
+    <!-- Hero Section -->
+
+    <!-- End   carsoul -->
+
+    <!------------------ cards Job Type --------->
+    <section>
+        <div class="container-fluid my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-12 text-center ">
+                        <h2 class="fs-1 my-4">Job Type</h2>
+                        <p class="fs-5">Mauris ut cursus nunc. Morbi eleifend, ligula at consectetur vehicula</p>
+                    </div>
+                    <div class="row d-flex gap-3 ">
+                        <div class="col card-icon ">
+                            <img src="/icon box/card-icon-1.png" alt="Work From Home icon">
+                            <p> Work From Home</p>
+                        </div>
+                        <div class="col card-icon">
+
+                            <img src="/icon box/card-icon-2.png" alt="Free Training icon">
+                            <p>Free Training</p>
+                        </div>
+                        <div class="col card-icon">
+
+                            <img src="/icon box/card-icon-3.png" alt="Internship icon">
+                            <p>Internship</p>
+                        </div>
+                        <div class="col card-icon">
+                            <img src="/icon box/card-icon-4.png" alt="Part Time icon">
+                            <p>Part Time</p>
+                        </div>
+                        <div class="col card-icon">
+                            <img src="/icon box/card-icon-5.png" alt="Full Time icon">
+                            <p>Full Time</p>
+                        </div>
+                        <div class="col card-icon">
+                            <img src="/icon box/card-icon-6.png" alt="Certifications icon">
+                            <p>Certifications</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------- End cards Job Type------------------->
+    <!-- Features  -  Top Trend -->
+    <section>
+        <div class="container-fluid features_top_trend text-white">
+            <div class="container">
+                <div class="row py-5 align-items-center"> <!-- Align vertically -->
+                    <div class="col-12 col-md-6 text-center text-md-start">
+                        <!-- Center text on small screens, left-align on medium and up -->
+                        <h3>Features - Top Trend</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="col-12 col-md-6 text-center text-md-end">
+                        <!-- Center button on small screens, right-align on medium and up -->
+                        <button class="btn btn-transparent border border-secondary text-white">Explore All</button>
+                    </div>
+                </div>
+
+                <!-------   Features cards    ------>
+                <div class="row  row-cols-1 row-cols-sm-2 row-cols-lg-3 justify-content-center pb-5">
+                    <!-------   Features card_1   ------>
+                    <div class="col  rounded-2  py-3">
+                        <div class="card bg-white p-3">
+                            <img src="icon box/icon-1.png" style="width:50px; height:50px;" alt="icon">
+                            <p class="text-muted fs-6 fst-normal">Google INC</p>
+                            <h3 class="text-dark fs-5 ">Product Designer</h3>
+                            <div class="small-box d-flex gap-2 text-muted justify-content-around my-4">
+                                <span class="icon_bg_color rounded-1 h-25 d-inline-block"><i
+                                        class="fa-solid fa-location-dot text-info me-2 "></i>Berlyn</span>
+                                <span class="icon_bg_color rounded-1 h-25 d-inline-block"><i
+                                        class="fa-solid fa-database text-info me-2 "></i>Full-time</span>
+                                <span class="icon_bg_color rounded-1 h-25 d-inline-block"><i
+                                        class="fa-solid fa-briefcase text-info me-2 "></i>80K-90K</span>
+                            </div>
+                            <div class="mb-4">
+                                <p class="text-muted">We are looking for Enrollment Advisors who are looking to take
+                                    30-35 appointments per week. All leads are pre-scheduled.</p>
+                            </div>
+                            <div class=" col d-flex justify-content-around">
+                                <button class="btn btn-success rounded-1 me-4">Apply Now</button>
+                                <div class="text-muted border border-1 px-4 py-2"><i
+                                        class="fa-regular fa-bookmark text-muted "></i>SAVE IT</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!------- End  Features card_1    ------>
+
+
+                    <!-------   Features card_2   ------>
+                    <div class="col  rounded-2  py-3 ">
+                        <div class="card bg-white p-3">
+                            <img src="icon box/icon-2.png" style="width:50px; height:50px;" alt="icon">
+                            <p class="text-muted fs-6 fst-normal">Google INC</p>
+                            <h3 class="text-dark fs-5 ">Product Designer</h3>
+                            <div class="small-box d-flex gap-2 text-muted justify-content-around my-4">
+                                <span class="icon_bg_color rounded-1 h-25 d-inline-block"><i
+                                        class="fa-solid fa-location-dot text-info me-2 "></i>Berlyn</span>
+                                <span class="icon_bg_color rounded-1 h-25 d-inline-block"><i
+                                        class="fa-solid fa-database text-info me-2 "></i>Full-time</span>
+                                <span class="icon_bg_color rounded-1 h-25 d-inline-block"><i
+                                        class="fa-solid fa-briefcase text-info me-2 "></i>80K-90K</span>
+                            </div>
+                            <div class="mb-4">
+                                <p class="text-muted">We are looking for Enrollment Advisors who are looking to take
+                                    30-35 appointments per week. All leads are pre-scheduled.</p>
+                            </div>
+                            <div class=" col d-flex justify-content-around">
+                                <button class="btn btn-success rounded-1 me-4">Apply Now</button>
+                                <div class="text-muted border border-1 px-4 py-2"><i
+                                        class="fa-regular fa-bookmark text-muted "></i>SAVE IT</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!------- End  Features card_2    ------>
+
+                    <!-------   Features card_3   ------>
+                    <div class="col  rounded-2 py-3 ">
+                        <div class="card bg-white p-3">
+                            <img src="icon box/icon-3.png" style="width:50px; height:50px;" alt="icon">
+                            <p class="text-muted fs-6 fst-normal">Google INC</p>
+                            <h3 class="text-dark fs-5 ">Product Designer</h3>
+                            <div class="small-box d-flex gap-2 text-muted justify-content-around my-4">
+                                <span class="icon_bg_color rounded-1 h-25 d-inline-block"><i
+                                        class="fa-solid fa-location-dot text-info me-2 "></i>Berlyn</span>
+                                <span class="icon_bg_color rounded-1 h-25 d-inline-block"><i
+                                        class="fa-solid fa-database text-info me-2 "></i>Full-time</span>
+                                <span class="icon_bg_color rounded-1 h-25 d-inline-block"><i
+                                        class="fa-solid fa-briefcase text-info me-2 "></i>80K-90K</span>
+                            </div>
+                            <div class="mb-4">
+                                <p class="text-muted">We are looking for Enrollment Advisors who are looking to take
+                                    30-35 appointments per week. All leads are pre-scheduled.</p>
+                            </div>
+                            <div class=" col d-flex justify-content-around">
+                                <button class="btn btn-success rounded-1 me-4">Apply Now</button>
+                                <div class="text-muted border border-1 px-4 py-2"><i
+                                        class="fa-regular fa-bookmark text-muted "></i>SAVE IT</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!------- End  Features card_3    ------>
+
+                    <!-------   Features card_4   ------>
+                    <div class="col  rounded-2  py-3">
+                        <div class="card bg-white p-3">
+                            <img src="icon box/icon-4.png" style="width:50px; height:50px;" alt="icon">
+                            <p class="text-muted fs-6 fst-normal">Google INC</p>
+                            <h3 class="text-dark fs-5 ">Product Designer</h3>
+                            <div class="small-box d-flex gap-2 text-muted justify-content-around my-4">
+                                <span class="icon_bg_color rounded-1 h-25 d-inline-block"><i
+                                        class="fa-solid fa-location-dot text-info me-2 "></i>Berlyn</span>
+                                <span class="icon_bg_color rounded-1 h-25 d-inline-block"><i
+                                        class="fa-solid fa-database text-info me-2 "></i>Full-time</span>
+                                <span class="icon_bg_color rounded-1 h-25 d-inline-block"><i
+                                        class="fa-solid fa-briefcase text-info me-2 "></i>80K-90K</span>
+                            </div>
+                            <div class="mb-4">
+                                <p class="text-muted">We are looking for Enrollment Advisors who are looking to take
+                                    30-35 appointments per week. All leads are pre-scheduled.</p>
+                            </div>
+                            <div class=" col d-flex justify-content-around">
+                                <button class="btn btn-success rounded-1 me-4">Apply Now</button>
+                                <div class="text-muted border border-1 px-4 py-2"><i
+                                        class="fa-regular fa-bookmark text-muted "></i>SAVE IT</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!------- End  Features card_4    ------>
+
+
+                    <!-------   Features card_5   ------>
+                    <div class="col  rounded-2  py-3  ">
+                        <div class="card bg-white p-3">
+                            <img src="icon box/icon-5.png" style="width:50px; height:50px;" alt="icon">
+                            <p class="text-muted fs-6 fst-normal">Google INC</p>
+                            <h3 class="text-dark fs-5 ">Product Designer</h3>
+                            <div class="small-box d-flex gap-2 text-muted justify-content-around my-4">
+                                <span class="icon_bg_color rounded-1 h-25 d-inline-block"><i
+                                        class="fa-solid fa-location-dot text-info me-2 "></i>Berlyn</span>
+                                <span class="icon_bg_color rounded-1 h-25 d-inline-block"><i
+                                        class="fa-solid fa-database text-info me-2 "></i>Full-time</span>
+                                <span class="icon_bg_color rounded-1 h-25 d-inline-block"><i
+                                        class="fa-solid fa-briefcase text-info me-2 "></i>80K-90K</span>
+                            </div>
+                            <div class="mb-4">
+                                <p class="text-muted">We are looking for Enrollment Advisors who are looking to take
+                                    30-35 appointments per week. All leads are pre-scheduled.</p>
+                            </div>
+                            <div class=" col d-flex justify-content-around">
+                                <button class="btn btn-success rounded-1 me-4">Apply Now</button>
+                                <div class="text-muted border border-1 px-4 py-2"><i
+                                        class="fa-regular fa-bookmark text-muted "></i>SAVE IT</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!------- End  Features card_5    ------>
+
+
+                    <!-------   Features card_6   ------>
+
+                    <div class="col  rounded-2  py-3">
+                        <div class="card bg-white p-3">
+                            <img src="icon box/icon-6.png" style="width:50px; height:50px;" alt="icon">
+                            <p class="text-muted fs-6 fst-normal">Google INC</p>
+                            <h3 class="text-dark fs-5 ">Product Designer</h3>
+                            <div class="small-box d-flex gap-2 text-muted justify-content-around my-4">
+                                <span class="icon_bg_color rounded-1 h-25 d-inline-block"><i
+                                        class="fa-solid fa-location-dot text-info me-2 "></i>Berlyn</span>
+                                <span class="icon_bg_color rounded-1 h-25 d-inline-block"><i
+                                        class="fa-solid fa-database text-info me-2 "></i>Full-time</span>
+                                <span class="icon_bg_color rounded-1 h-25 d-inline-block"><i
+                                        class="fa-solid fa-briefcase text-info me-2 "></i>80K-90K</span>
+                            </div>
+                            <div class="mb-4">
+                                <p class="text-muted">We are looking for Enrollment Advisors who are looking to take
+                                    30-35 appointments per week. All leads are pre-scheduled.</p>
+                            </div>
+                            <div class=" col d-flex justify-content-around">
+                                <button class="btn btn-success rounded-1 me-4">Apply Now</button>
+                                <div class="text-muted border border-1 px-4 py-2"><i
+                                        class="fa-regular fa-bookmark text-muted "></i>SAVE IT</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!------- End  Features card_6    ------>
+                </div>
+    </section>
+    <!-- ************    End Features - Top Trend     ************ -->
+
+    <!----------      Section   Top Companies        ------>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center py-5">
+                    <h2 class="fs-1">Top Companies</h2>
+                    <p class="fs-5">Mauris ut cursus nunc. Morbi eleifend, ligula at consectetur vehicula.</p>
+                </div>
+            </div>
+            <div
+                class="row row-cols-1 row-cols-sm-4  row-cols-lg-5 d-flex justify-content-center align-items-center pb-5 boder border-danger ">
+                <!-------   Company Card 1   ------>
+                <div class="col">
+                    <div class="card h-100 w-100 d-flex flex-column align-items-center py-4">
+                        <img src="/TopCompanies_pic/top-pic-1.png" class="card-img-top"
+                            style="height: 100px; object-fit: contain;" alt="Company 1">
+                    </div>
+                </div>
+                <!------- End  Company Card 1    ------>
+
+                <!-------   Company Card 2   ------>
+                <div class="col">
+                    <div class="card h-100 w-100 d-flex flex-column align-items-center py-4">
+                        <img src="/TopCompanies_pic/top-pic-2.png" class="card-img-top"
+                            style="height: 100px; object-fit: contain;" alt="Company 1">
+                    </div>
+                </div>
+                <!------- End  Company Card 2    ------>
+
+                <!-------   Company Card 3   ------>
+                <div class="col">
+                    <div class="card h-100 w-100 d-flex flex-column align-items-center py-4">
+                        <img src="/TopCompanies_pic/top-pic-3.png" class="card-img-top"
+                            style="height: 100px; object-fit: contain;" alt="Company 1">
+                    </div>
+                </div>
+                <!------- End  Company Card 3    ------>
+
+                <!-------   Company Card 4   ------>
+                <div class="col">
+                    <div class="card h-100 w-100 d-flex flex-column align-items-center py-4">
+                        <img src="/TopCompanies_pic/top-pic-4.png" class="card-img-top"
+                            style="height: 100px; object-fit: contain;" alt="Company 1">
+                    </div>
+                </div>
+                <!------- End  Company Card 4    ------>
+                <!-------   Company Card 5   ------>
+                <div class="col">
+                    <div class="card h-100 w-100 d-flex flex-column align-items-center py-4">
+                        <img src="/TopCompanies_pic/top-pic-5.png" class="card-img-top"
+                            style="height: 100px; object-fit: contain;" alt="Company 1">
+                    </div>
+                </div>
+                <!------- End  Company Card 5    ------>
+            </div>
+        </div>
+    </section>
+    <!-- ************** End Top  Companies   ************ -->
+
+    <!-- ****  start Job Type ***** -->
+    <!-- Job Type cards   here-->
+    <!-- Card slider -->
+
+    <section class="job-slider-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="splide" aria-label="Job Cards Slider">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                   <!-- card start here -->
+                                    <div class="card text-center pt-3">
+                                        <!-- Replace with your actual image path -->
+                                        <img src="jobcard/card-1.png" style="width:130px; height:110px; margin:0 auto"
+                                            alt="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Web Developer jobs</h5>
+                                            <p class="card-text">
+                                                <small class="text-muted">Emergin</small>
+                                            </p>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">Los Angeles</p>
+                                                <p>5 hours ago</p>
+                                            </div>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">Sally Peake</p>
+                                                <p>2 Yrs Exp</p>
+                                            </div>
+                                            <div class="mb-2 mt-2">
+                                                <span class="border border-1 py-2 px-4">5 Positions</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-around align-items-center border border-1">
+                                            <div class="border-2 border-end pe-5">
+                                                <p class="mt-3">Part Time</p>
+                                            </div>
+                                            <p class="mt-3">32 - 40</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                   <!-- card start here -->
+                                    <div class="card text-center pt-3">
+                                        <img src="jobcard/card-2.png" style="width:130px; height:110px; margin:0 auto"
+                                            alt="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Software Developer Jobs</h5>
+                                            <p class="card-text">
+                                                <small class="text-muted">Pro.Meet</small>
+                                            </p>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">New York</p>
+                                                <p>1 day ago</p>
+                                            </div>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">John Doe</p>
+                                                <p>3 Yrs Exp</p>
+                                            </div>
+                                            <div class="mb-2 mt-2">
+                                                <span class="border border-1 py-2 px-4">2 Positions</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-around align-items-center border border-1">
+                                            <div class="border-2 border-end pe-5">
+                                                <p class="mt-3">Full Time</p>
+                                            </div>
+                                            <p class="mt-3">40 - 50</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                   <!-- card start here -->
+                                    <div class="card text-center pt-3">
+                                        <img src="jobcard/card-3.png" style="width:130px; height:110px; margin:0 auto"
+                                            alt="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Accountant Jobs</h5>
+                                            <p class="card-text">
+                                                <small class="text-muted">Ecohomes</small>
+                                            </p>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">San Francisco</p>
+                                                <p>3 hours ago</p>
+                                            </div>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">Jane Smith</p>
+                                                <p>4 Yrs Exp</p>
+                                            </div>
+                                            <div class="mb-2 mt-2">
+                                                <span class="border border-1 py-2 px-4">1 Position</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-around align-items-center border border-1">
+                                            <div class="border-2 border-end pe-5">
+                                                <p class="mt-3">Contract</p>
+                                            </div>
+                                            <p class="mt-3">60 - 70</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                   <!-- card start here -->
+                                    <div class="card text-center pt-3">
+                                        <img src="jobcard/card-4.png" style="width:130px; height:110px; margin:0 auto"
+                                            alt="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Accountant Jobs</h5>
+                                            <p class="card-text">
+                                                <small class="text-muted">Ecohomes</small>
+                                            </p>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">San Francisco</p>
+                                                <p>3 hours ago</p>
+                                            </div>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">Jane Smith</p>
+                                                <p>4 Yrs Exp</p>
+                                            </div>
+                                            <div class="mb-2 mt-2">
+                                                <span class="border border-1 py-2 px-4">1 Position</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-around align-items-center border border-1">
+                                            <div class="border-2 border-end pe-5">
+                                                <p class="mt-3">Contract</p>
+                                            </div>
+                                            <p class="mt-3">60 - 70</p>
+                                        </div>
+                                    </div>
+                                </li>
+              <!-----   Added more slides  slide 2nd ---->
+                                <li class="splide__slide">
+                                   <!-- card start here -->
+                                    <div class="card text-center pt-3">
+                                        <!-- Replace with your actual image path -->
+                                        <img src="jobcard/card-1.png" style="width:130px; height:110px; margin:0 auto"
+                                            alt="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Web Developer jobs</h5>
+                                            <p class="card-text">
+                                                <small class="text-muted">Emergin</small>
+                                            </p>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">Los Angeles</p>
+                                                <p>5 hours ago</p>
+                                            </div>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">Sally Peake</p>
+                                                <p>2 Yrs Exp</p>
+                                            </div>
+                                            <div class="mb-2 mt-2">
+                                                <span class="border border-1 py-2 px-4">5 Positions</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-around align-items-center border border-1">
+                                            <div class="border-2 border-end pe-5">
+                                                <p class="mt-3">Part Time</p>
+                                            </div>
+                                            <p class="mt-3">32 - 40</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                   <!-- card start here -->
+                                    <div class="card text-center pt-3">
+                                        <img src="jobcard/card-2.png" style="width:130px; height:110px; margin:0 auto"
+                                            alt="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Software Developer Jobs</h5>
+                                            <p class="card-text">
+                                                <small class="text-muted">Pro.Meet</small>
+                                            </p>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">New York</p>
+                                                <p>1 day ago</p>
+                                            </div>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">John Doe</p>
+                                                <p>3 Yrs Exp</p>
+                                            </div>
+                                            <div class="mb-2 mt-2">
+                                                <span class="border border-1 py-2 px-4">2 Positions</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-around align-items-center border border-1">
+                                            <div class="border-2 border-end pe-5">
+                                                <p class="mt-3">Full Time</p>
+                                            </div>
+                                            <p class="mt-3">40 - 50</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                   <!-- card start here -->
+                                    <div class="card text-center pt-3">
+                                        <img src="jobcard/card-3.png" style="width:130px; height:110px; margin:0 auto"
+                                            alt="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Accountant Jobs</h5>
+                                            <p class="card-text">
+                                                <small class="text-muted">Ecohomes</small>
+                                            </p>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">San Francisco</p>
+                                                <p>3 hours ago</p>
+                                            </div>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">Jane Smith</p>
+                                                <p>4 Yrs Exp</p>
+                                            </div>
+                                            <div class="mb-2 mt-2">
+                                                <span class="border border-1 py-2 px-4">1 Position</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-around align-items-center border border-1">
+                                            <div class="border-2 border-end pe-5">
+                                                <p class="mt-3">Contract</p>
+                                            </div>
+                                            <p class="mt-3">60 - 70</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                   <!-- card start here -->
+                                    <div class="card text-center pt-3">
+                                        <img src="jobcard/card-4.png" style="width:130px; height:110px; margin:0 auto"
+                                            alt="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Accountant Jobs</h5>
+                                            <p class="card-text">
+                                                <small class="text-muted">Ecohomes</small>
+                                            </p>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">San Francisco</p>
+                                                <p>3 hours ago</p>
+                                            </div>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">Jane Smith</p>
+                                                <p>4 Yrs Exp</p>
+                                            </div>
+                                            <div class="mb-2 mt-2">
+                                                <span class="border border-1 py-2 px-4">1 Position</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-around align-items-center border border-1">
+                                            <div class="border-2 border-end pe-5">
+                                                <p class="mt-3">Contract</p>
+                                            </div>
+                                            <p class="mt-3">60 - 70</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                <!-- ***********  3rd   Slide************** -->
+                                <li class="splide__slide">
+                                   <!-- card start here -->
+                                    <div class="card text-center pt-3">
+                                        <!-- Replace with your actual image path -->
+                                        <img src="jobcard/card-1.png" style="width:130px; height:110px; margin:0 auto"
+                                            alt="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Web Developer jobs</h5>
+                                            <p class="card-text">
+                                                <small class="text-muted">Emergin</small>
+                                            </p>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">Los Angeles</p>
+                                                <p>5 hours ago</p>
+                                            </div>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">Sally Peake</p>
+                                                <p>2 Yrs Exp</p>
+                                            </div>
+                                            <div class="mb-2 mt-2">
+                                                <span class="border border-1 py-2 px-4">5 Positions</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-around align-items-center border border-1">
+                                            <div class="border-2 border-end pe-5">
+                                                <p class="mt-3">Part Time</p>
+                                            </div>
+                                            <p class="mt-3">32 - 40</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                   <!-- card start here -->
+                                    <div class="card text-center pt-3">
+                                        <img src="jobcard/card-2.png" style="width:130px; height:110px; margin:0 auto"
+                                            alt="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Software Developer Jobs</h5>
+                                            <p class="card-text">
+                                                <small class="text-muted">Pro.Meet</small>
+                                            </p>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">New York</p>
+                                                <p>1 day ago</p>
+                                            </div>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">John Doe</p>
+                                                <p>3 Yrs Exp</p>
+                                            </div>
+                                            <div class="mb-2 mt-2">
+                                                <span class="border border-1 py-2 px-4">2 Positions</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-around align-items-center border border-1">
+                                            <div class="border-2 border-end pe-5">
+                                                <p class="mt-3">Full Time</p>
+                                            </div>
+                                            <p class="mt-3">40 - 50</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                   <!-- card start here -->
+                                    <div class="card text-center pt-3">
+                                        <img src="jobcard/card-3.png" style="width:130px; height:110px; margin:0 auto"
+                                            alt="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Accountant Jobs</h5>
+                                            <p class="card-text">
+                                                <small class="text-muted">Ecohomes</small>
+                                            </p>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">San Francisco</p>
+                                                <p>3 hours ago</p>
+                                            </div>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">Jane Smith</p>
+                                                <p>4 Yrs Exp</p>
+                                            </div>
+                                            <div class="mb-2 mt-2">
+                                                <span class="border border-1 py-2 px-4">1 Position</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-around align-items-center border border-1">
+                                            <div class="border-2 border-end pe-5">
+                                                <p class="mt-3">Contract</p>
+                                            </div>
+                                            <p class="mt-3">60 - 70</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                   <!-- card start here -->
+                                    <div class="card text-center pt-3">
+                                        <img src="jobcard/card-4.png" style="width:130px; height:110px; margin:0 auto"
+                                            alt="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Accountant Jobs</h5>
+                                            <p class="card-text">
+                                                <small class="text-muted">Ecohomes</small>
+                                            </p>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">San Francisco</p>
+                                                <p>3 hours ago</p>
+                                            </div>
+                                            <div class="d-flex justify-content-around align-items-center">
+                                                <p class="me-3">Jane Smith</p>
+                                                <p>4 Yrs Exp</p>
+                                            </div>
+                                            <div class="mb-2 mt-2">
+                                                <span class="border border-1 py-2 px-4">1 Position</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-around align-items-center border border-1">
+                                            <div class="border-2 border-end pe-5">
+                                                <p class="mt-3">Contract</p>
+                                            </div>
+                                            <p class="mt-3">60 - 70</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------    card Slide end    --------->
+
+    <!-------   Section  Find Job   --------->
+    <section>
+        <div class="container">
+            <div class="row  my-5">
+                <div class="col-6 border border-end-0 b text-center p-3 bg-light">
+                    <div class=" d-flex justify-content-center align-items-center mt-3">
+                        <img src="/images/jobpic-1.png" alt="Jobpic" class="img-thumbnail">
+                    </div>
+                    <h3 class="text-muted fw-lighter py-3">Do You Want to Find a Job?</h3>
+                    <p class="pb-3"> it look like readable English. Many desktop publishing packages and web page
+                        editors now use
+                        Lorem Ipsum as their default model text</p>
+                    <button class="btn btn-primary">Find Job</button>
+                </div>
+                <div class="col-6 border border-2 text-center p-5">
+                    <div class=" d-flex justify-content-center align-items-center ">
+                        <img src="/images/jobpic-2.png" alt="Jobpic" class="img-thumbnail">
+                    </div>
+                    <h3 class="text-muted fw-lighter py-3">Are You Looking For A Candidate?</h3>
+                    <p class="pb-2">iit look like readable English. Many desktop publishing packages and web page
+                        editors now use
+                        Lorem Ipsum as their default model text</p>
+                    <button class="btn btn-primary">Find Candidate</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------    Find Job     --------->
+
+    <!-------  Sart  Our Employees   --------->
+    <section>
+        <div class="container-fluid">
+            <div class="container ">
+                <div class="row g-4 ">
+                    <div class="p-4">
+                        <div class="col-12 text-center">
+                            <h2 class="fs-1 my-2 text-muted fw-normal">Ready To Join</h2>
+                            <p class="fs-5 p-2 my-3">Featured Employees profile</p>
+                        </div>
+                        <div class="row gx-2 gy-2"> <!-- Use g-4 for gap between cards -->
+                            <!-- Start card_1 -->
+                            <div class="col-md-3"> <!-- Adjust column width as needed -->
+                                <div class="card text-center pt-3">
+                                    <img src="/images/Employees-pics/pic-1.png" class="mx-auto d-block"
+                                        style="width:100px; height:100px;" alt="star">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-light">Sid Quebedeaux</h5>
+                                        <p class="card-text">
+                                            <small class="text-muted">Web Developer (6 Yrs Exp)</small>
+                                        </p>
+                                    </div>
+                                    <div class="pb-3">
+                                        <button class="btn btn-white border border-1">View Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End card_1 -->
+                            <!-- Start card_1 -->
+                            <div class="col-md-3"> <!-- Adjust column width as needed -->
+                                <div class="card text-center pt-3">
+                                    <img src="/images/Employees-pics/pic-2.png" class="mx-auto d-block"
+                                        style="width:100px; height:100px;" alt="star">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-light">Roseann Graig</h5>
+                                        <p class="card-text">
+                                            <small class="text-muted">Web Designer (2 Yrs Exp)</small>
+                                        </p>
+                                    </div>
+                                    <div class="pb-3">
+                                        <button class="btn btn-white border border-1">View Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End card_1 -->
+                            <!-- Start card_1 -->
+                            <div class="col-md-3"> <!-- Adjust column width as needed -->
+                                <div class="card text-center pt-3">
+                                    <img src="/images/Employees-pics/pic-3.png" class="mx-auto d-block"
+                                        style="width:100px; height:100px;" alt="star">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-light">Sheridan Bastin</h5>
+                                        <p class="card-text">
+                                            <small class="text-muted">Java Programmer (1 Yr Exp)</small>
+                                        </p>
+                                    </div>
+                                    <div class="pb-3">
+                                        <button class="btn btn-white border border-1">View Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End card_1 -->
+
+                            <!-- Repeat for other cards -->
+                            <div class="col-md-3"> <!-- Adjust column width as needed -->
+                                <div class="card text-center pt-3">
+                                    <img src="/images/Employees-pics/pic-4.png" class="mx-auto d-block"
+                                        style="width:100px; height:100px;" alt="star">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-light">Tanner Fullerton</h5>
+                                        <p class="card-text">
+                                            <small class="text-muted">Php Developer (6 Yrs Exp)</small>
+                                        </p>
+                                    </div>
+                                    <div class="pb-3">
+                                        <button class="btn btn-white border border-1">View Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Repeat for cards 3 and 4 similarly -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------    End Our Employees    --------->
+
+    <!-------   Testimonials     --------->
+    <section>
+        <div class="container-fluid bg-Testimonial">
+            <div class="container mt-4">
+                <div class="row justify-content-center"> <!-- Center the content -->
+                    <div class="col-md-6  py-3"> <!-- Set the width of the element -->
+                        <h2 class="text-center py-3">Testimonials</h2>
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic
+                            tenetur quae
+                            quaerat ad velit ab. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore cum
+                            accusamus eveniet molestias voluptatum inventore laboriosam labore sit, aspernatur
+                            praesentium
+                            iste impedit quidem dolor veniam.</p>
+                        <h3>Full Name</h3>
+                        <p>Web Developer</p>
+                        <div class="pb-4">
+                            <img src="/images/stars/star-1.png" alt="">
+                            <img src="/images/stars/star-2.png" alt="">
+                            <img src="/images/stars/star-3.png" alt="">
+                            <img src="/images/stars/star-4.png" alt="">
+                            <img src="/images/stars/star-5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------    End  Testimonials   --------->
+
+    <!-------    Footer    --------->
+
+    <footer class="footer mt-auto pt-3 bg_footer">
+        <div class="container">
+            <div class="row d-flex py-5">
+                <div class="col">
+                    <h6 class="text-white text-start mb-2 "><a href="#" class="no-underline">Job Categories</a></h6>
+                    <hr style="height:3px; background-color: #ffffff; width: 120px;">
+                    <ul class="me-3 list-unstyled d-flex flex-column justify-content-around ">
+                        <li class="text-white text-start">Development</li>
+                        <li class="text-white text-start">Designing</li>
+                        <li class="text-white text-start">Marketing</li>
+                        <li class="text-white text-start">Others</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h6 class="text-white text-start mb-2 ">Job Type</h6>
+                    <hr style="height:3px; background-color: #ffffff; width: 100px;">
+                    <ul class="me-3 list-unstyled d-flex flex-column justify-content-around ">
+                        <li class="text-white text-start">Work from home</li>
+                        <li class="text-white text-start">Internship</li>
+                        <li class="text-white text-start">Part time</li>
+                        <li class="text-white text-start">Full time</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h6 class="text-white text-start mb-2 ">Resources</h6>
+                    <hr style="height:3px; background-color: #ffffff; width: 100px;">
+                    <ul class="me-3 list-unstyled d-flex flex-column justify-content-around ">
+                        <li class="text-white text-start">Support</li>
+                        <li class="text-white text-start">FAQ</li>
+                        <li class="text-white text-start">Terms of Service</li>
+                        <li class="text-white text-start">Contac</li>t Details</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h6 class="text-white text-start mb-2 ">Popular Ads</h6>
+                    <hr style="height:3px; background-color: #ffffff; width: 100px;">
+                    <ul class="me-3 list-unstyled d-flex flex-column justify-content-around ">
+                        <li class="text-white text-start">Educational college Ads</li>
+                        <li class="text-white text-start">Freelancer for Web Developer</li>
+                        <li class="text-white text-start">Searching for Developer</li>
+                        <li class="text-white text-start">BPO Online In Bangalore</li>
+                    </ul>
+                </div>
+                <div class="col">
+
+                    <h6 class="text-white text-start mb-2 ">Subscribe</h6>
+                    <hr style="height:3px; background-color: #ffffff; width: 100px;">
+                    <ul class="me-3 list-unstyled d-flex flex-column justify-content-around ">
+                        <div class="input-group mt-2">
+                            <input type="text" class="form-control" placeholder="Enter your email"
+                                aria-label="User input">
+                            <button class="btn btn-primary" type="button">
+                                <a>Subscribe</button>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="text-center">
+            <hr style="height:3px; background-color: #ffffff; width: 100%;">
+            <p class="text-white ">Created by Naheed Deedar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp; © 2025 Kassib. All rights reserved.</p>
+            <hr style="height:3px; background-color: #ffffff; width: 100%;">
+        </div>
+        <div class="pb-4">
+            <ul class="d-flex justify-content-center gap-3 align-items-start">
+                <li class="list-unstyled text-white"><a href="#">How It Works</a></li>
+                <li class="list-unstyled text-white"><a class="text-white">About Us</a></li>
+                <li class="list-unstyled text-white"><a class="text-white">Pricing</a></li>
+                <li class="list-unstyled text-white"><a class="text-white">Ads Categories</a></li>
+                <li class="list-unstyled text-white"> <a class="text-white">Privacy Policy</a></li>
+                <li class="list-unstyled text-white"><a class="text-white">Terms Of Conditions</a></li>
+                <li class="list-unstyled text-white"><a class="text-white">Blog</a></li>
+                <li class="list-unstyled text-white"><a class="text-white">Contact Us</a></li>
+                <li class="list-unstyled text-white"><a class="text-white">Premium Ad</a></li>
+
+            </ul>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Splide Slider Script -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var splide = new Splide('.splide', {
+                perPage: 4,
+                perMove: 1,
+                type: 'loop',
+                gap: '1.5rem',
+                pagination: true,
+                speed: 1000,
+                easing: 'ease-out',
+                breakpoints: {
+                    600: { perPage: 1, perMove: 1 },
+                    1024: { perPage: 2, perMove: 1 },
+                    1200: { perPage: 3, perMove: 1 },
+                },
+            });
+
+            splide.mount();
+
+            // 🟢 Custom pagination logic:
+            var pagination = splide.Components.Pagination;
+
+            // Remove existing dots
+            pagination.list.innerHTML = '';
+
+            // Add one dot per slide instead of per page
+            splide.Components.Slides.get().forEach((slide, index) => {
+                var li = document.createElement('li');
+                var button = document.createElement('button');
+                button.textContent = index + 1;
+                li.appendChild(button);
+
+                // Jump to that slide when clicked
+                button.addEventListener('click', function () {
+                    splide.go(index);
+                });
+
+                pagination.list.appendChild(li);
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
